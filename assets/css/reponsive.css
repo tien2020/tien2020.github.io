@@ -1,0 +1,46 @@
+/* Mobile */
+@media (max-width: 740px){
+    #nav {
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li a{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    .ticket{
+        margin-left:20px;
+        width: 90%;
+    }
+    .place{
+        margin:0;
+    }
+    .place-item{
+        width: 94%;
+        float: none;
+        margin-left: 12px;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .row{
+        margin: 0;
+    }
+    #content .section-contact .input-contacts{
+        margin-top: 20px;
+        margin-left: 0;
+        float: right;
+    }
+    #content .section-contact .input-contacts-message{
+        margin: 10px 10px 0 0;
+    }
+
